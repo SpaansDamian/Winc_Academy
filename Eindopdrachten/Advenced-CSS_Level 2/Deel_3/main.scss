@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import "./constants";
+
+body {
+  background-image: linear-gradient(135deg, $page_background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+.socialmedia {
+  position: fixed;
+  top: 50%;
+  left: calc(100% - 60px);
+  list-style-type: none;
+  padding: 0;
+  transform: translateY(-50%);
+  min-width: 250px;
+
+  &__item {
+    align-items: center;
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: translateX(calc(-100% + 60px));
+    }
+
+    &--twitch {
+      background-color: $twitch_color;
+      content: "\f1e8";
+    }
+
+    &--twitter {
+      background-color: $twitter_color;
+      content: "\f099";
+    }
+
+    &--linkedin {
+      background-color: $linkedin_color;
+      content: "\f0e1";
+    }
+
+    &--facebook {
+      background-color: $facebook_color;
+      content: "\f39e";
+    }
+
+    &--github {
+      background-color: $github_color;
+      content: "\f09b";
+    }
+  }
+
+  &__logo {
+    color: $social_color;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    width: 60px;
+  }
+
+  &__link {
+    color: $font_color;
+    padding: 0 10px;
+  }
+}
