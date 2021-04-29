@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>Groot Formulier</title>
+
+  </head>
+
+  <body>
+
+    <form name="contact" method="post" data-netlify="true">
+
+      <!-- Name -->
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+
+      <!-- Email -->
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+
+      <!-- Phonenumber -->
+      <label for="phone">Enter a phone number:</label><br>
+      <input type="tel" id="phone" name="phone" placeholder="06-12345678" pattern="[0-9]{2}-[0-9]{8}" required><br><br>
+
+      <!-- Age -->
+      <label for="age">Age:</label><br>
+      <input type="number" name="age" size="6" min="0" max="999"><br><br>
+
+      <!-- Date of birth -->
+      <label for="date">Date of Birth:</label><br>
+      <input type="date" id="birthday" name="date"><br><br>
+
+      <!-- Gender -->
+      <label for="gender">Gender Selection:</label><br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label><br><br>
+
+      <!-- Favorite Cuisine -->
+      <label for="food">Favorite Cuisine:</label><br>
+      <input type="checkbox" id="food1" name="food" value="frans">
+      <label for="food1">Frans</label><br>
+      <input type="checkbox" id="food2" name="food" value="italiaans">
+      <label for="food2">Italiaans</label><br>
+      <input type="checkbox" id="food3" name="food" value="spaans">
+      <label for="food3">Spaans</label><br><br>
+
+      <!-- Favorite Color -->
+      <label for="favcolor">Favorite Color:</label><br>
+      <input type="color" name="favcolor" value="favcolor"><br><br>
+
+      <!-- Biografie -->
+      <textarea name="Biografie" rows="6" cols="60"></textarea><br><br>
+
+      <!-- Latest Recipe -->
+      <label for="myfile">Latest recipe file:</label><br>
+      <input type="file" id="myfile" name="myfile"><br><br>
+
+      <!-- URL Recipe website -->
+      <label for="URL">URL you got you recipe from:</label><br>
+      <input type="url" id="URL" name="URL"><br><br>
+
+      <!-- Submit & Reset Button -->
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+
+    </form>
+
+  </body>
+
+</html>
