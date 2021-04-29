@@ -1,0 +1,97 @@
+body{
+  background-color: red;
+  font-size: 50px;
+}
+
+header{
+  background: cyan;
+  margin: 20px;
+}
+
+main{
+  margin: 20px;
+  padding: 1px;
+}
+
+article{
+  margin-top: 30px;;
+}
+
+form{
+  padding: 20px;
+  margin: 20px;
+}
+
+/*
+h1{
+  font-size: 50px;
+}
+*/
+
+li{
+  color: cyan;
+  font-size: 50px;
+}
+
+ul.horizontaal{
+  border: 2px solid black;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  float: left;
+  display: block;
+  padding: 8px;
+  background-color: cyan;
+}
+
+ol li{
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 20px;
+}
+
+footer{
+  color: cyan;
+  padding: 20px 5px 5px 5px;
+}
+
+.google{
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.puppy{
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+}
+
+h2.bold{
+  font-family: cursive;
+}
+
+.blogpost{
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogpost > div{
+  width: 300px;
+  border: 1px solid black;
+}
+
+@media (min-width: 768px){
+  body{
+    background-color: green;
+    font-size: 20px;
+    line-height: 18px;
+  }
+
+  li{
+    color: black;
+    font-size: 20px;
+  }
+}
