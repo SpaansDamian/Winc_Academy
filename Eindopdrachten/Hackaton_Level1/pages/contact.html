@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my website</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap">
+  </head>
+  <body>
+    <div class="parent">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="../index.html"><h1>Home</h1></a></li>
+            <li><a href="about.html"><h1>About</h1></a></li>
+            <li><a href="contact.html"><h1>Contact me</h1></a></li>
+            <li class="right"><a href="https://www.google.nl/"><h1>Google</h1></a></li>
+            <li class="right"><a href="https://www.twitch.tv/l3g3scripting"><h1>Twitch</h1></a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>My website is about: Myself</h1>
+        <p class="small_text">What a suprise ;)</p>
+        <article>
+          <form class="form" method="post" data-netlify="true">
+            <ul class="flex-outer">
+              <li>
+                <label for="f_name">First Name:</label>
+                <input type="text" name="f_name" placeholder="First Name" required>
+              </li>
+              <li>
+                <label for="l_name">Last Name:</label>
+                <input type="text" name="l_name" placeholder="Last Name" required>
+              </li>
+              <li>
+                <label>Age:</label>
+                <ul class="flex-inner">
+                  <li>
+                    <input type="checkbox" id="twenty-to-twentynine">
+                    <label for="twenty-to-twentynine">20-29</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="thirty-to-thirtynine">
+                    <label for="thirty-to-thirtynine">30-39</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="fourty-to-fourtynine">
+                    <label for="fourty-to-fourtynine">40-49</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="fifty-to-fiftynine">
+                    <label for="fifty-to-fiftynine">50-59</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="sixty-to-sixtynine">
+                    <label for="sixty-to-sixtynine">60-69</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="other">
+                    <label for="other">Other</label>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <label for="phone">Phone number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="06-12345678" pattern="[0-9]{2}-[0-9]{8}">
+              </li>
+              <li>
+                <label for="disc_name">Discord Name:</label>
+                <input type="text" name="disc_name" placeholder="Username#0000">
+              </li>
+              <li>
+                <label for="mail">Email address:</label>
+                <input type="email" name="mail" placeholder="example@domain.com" required>
+              </li>
+              <li>
+                <button type="submit" value="submit">Submit</button>
+              </li>
+            </ul>
+          </form>
+          <aside class="info">
+            <p>
+              My email: Damian070.2000@gmail.com<br>
+              My discord: Scrptng#7860
+            </p>
+          </aside>
+        </article>
+      </main>
+      <footer>
+        <h1 class="f_left">Made by: <b>Damian Spaans</b></h1>
+        <h1 class="f_right">Prods by: <b>WINC Academy</b></h1>
+      </footer>
+    </div>
+  </body>
+</html>
