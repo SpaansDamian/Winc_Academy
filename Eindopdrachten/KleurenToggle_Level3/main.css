@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+nav {
+  width: 400px;
+}
+nav .button {
+  width: 100px;
+  height: 100%;
+  font-size: 80px;
+  cursor: pointer;
+  text-align: center;
+}
+nav ul {
+  visibility: hidden;
+}
+nav li {
+  list-style: none;
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: block;
+  padding: 24px 16px;
+  font-style: oblique;
+  font-weight: bold;
+}
+nav li:hover {
+  font-size: 1.75rem;
+}
+nav .home {
+  background-color: whitesmoke;
+  border: 3px solid black;
+}
+nav .red {
+  background-color: red;
+  border: 3px solid black;
+}
+nav .green {
+  background-color: green;
+  border: 3px solid black;
+}
+nav .blue {
+  background-color: blue;
+  border: 3px solid black;
+}
+nav .purple {
+  background-color: purple;
+  border: 3px solid black;
+}/*# sourceMappingURL=main.css.map */

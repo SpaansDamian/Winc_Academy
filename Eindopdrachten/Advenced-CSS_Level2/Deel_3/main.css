@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Lato");
+body {
+  background-image: linear-gradient(135deg, #c3cfe2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+.socialmedia {
+  position: fixed;
+  top: 50%;
+  left: calc(100% - 60px);
+  list-style-type: none;
+  padding: 0;
+  transform: translateY(-50%);
+  min-width: 250px;
+}
+.socialmedia__item {
+  align-items: center;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+.socialmedia__item:hover {
+  transform: translateX(calc(-100% + 60px));
+}
+.socialmedia__item--twitch {
+  background-color: #6441a5;
+  content: "";
+}
+.socialmedia__item--twitter {
+  background-color: #00aced;
+  content: "";
+}
+.socialmedia__item--linkedin {
+  background-color: #007bb6;
+  content: "";
+}
+.socialmedia__item--facebook {
+  background-color: #3b5998;
+  content: "";
+}
+.socialmedia__item--github {
+  background-color: #333;
+  content: "";
+}
+.socialmedia__logo {
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+  width: 60px;
+}
+.socialmedia__link {
+  color: #fff;
+  padding: 0 10px;
+}/*# sourceMappingURL=main.css.map */
